@@ -56,28 +56,116 @@ a:link {color:#fff;}
 	color: #0032e8;
 	}
 .text_column {
-	width: 32%;
+	width: 45%;
 	text-align: justify;
-	font-weight: lighter;
-	line-height: 25px;
+	line-height: 30px;
+	float: left;
+	padding-left: 100px;
+	padding-right: 20px;
+  font-family: 'Exo 2';
+  font-size: 16pt;
+  font-weight: 700;
+  color: #c2c9e4;
+}
+.text_column_small {
+	width: 33%;
+	text-align: center;
+	line-height: 30px;
 	float: left;
 	padding-left: 20px;
 	padding-right: 20px;
   font-family: 'Exo 2';
-  font-size: 12pt;
-  font-weight: 700;
+  font-size: 20pt;
+  font-weight: 500;
+  color: #fff;
+}
+.text_column2 {
+	width: 95%;
+	text-align: justify;
+	line-height: 30px;
+	float: left;
+	padding-left: 150px;
+	padding-right: 150px;
+  padding-top: 50px;
+  font-family: 'Exo 2';
+  font-size: 14pt;
+  font-weight: 500;
   color: #c2c9e4;
 }
+
+.text_column3 {
+	width: 100%;
+	text-align: center;
+	line-height: 36px;
+	float: left;
+	padding-left: 150px;
+	padding-right: 150px;
+  padding-top: 50px;
+  font-family: 'Exo 2';
+  font-size: 20pt;
+  font-weight: 500;
+  color: #fff;
+}
+
+
 .science {
-	padding-left: 25px;
-	padding-right: 25px;
-	padding-top: 35px;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 50px;
+  float: left;
 	display: inline-block;
 	/* background-color: #101028;
   background-image: url("files/circuits.jpg"); */
 	margin-top: 0px;
   font-family: 'Exo 2';
 
+}
+.disp {
+	padding-left: 45%;
+	padding-right: 40%;
+	padding-top: 10px;
+  float: center;
+	/* background-color: #101028;
+  background-image: url("files/circuits.jpg"); */
+	margin-top: 0px;
+  font-family: 'Exo 2';
+
+}
+
+
+/*		Featured on section 		*/
+
+.featured_on{
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	padding-left: 5%;
+	padding-right: 5%;
+	font-family:  'Exo 2';
+	font-size: 24px;
+  text-align: center;
+}
+
+.featured_on .team_name{
+	color: #101028;
+	font-family: termina;
+	font-size: 36px;
+	margin-bottom: 0; 
+}
+
+.featured_on ul{
+	margin: 0;
+}
+
+.featured_on li{
+	position: center;
+	margin-left: 0px;
+	text-align: right;
+	height: 100%;
+}
+
+.featured_on li:first-child{
+	margin-left: 0;
 }
 
 
@@ -150,6 +238,37 @@ a:link {color:#fff;}
 	margin-bottom: 0px;
 	margin-left: 0px;
 }
+
+
+
+@media (max-width: 1200px) {
+  .text_column {
+    width: 95%;
+    text-align: justify;
+    line-height: 30px;
+    float: left;
+    padding-left: 100px;
+    padding-right: 20px;
+    font-family: 'Exo 2';
+    font-size: 16pt;
+    font-weight: 700;
+    color: #c2c9e4;
+  }
+  .text_column_small {
+    width: 90%;
+    text-align: center;
+    line-height: 30px;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Exo 2';
+    font-size: 20pt;
+    font-weight: 500;
+    color: #fff;
+  }
+
+}
+
 
 @font-face {
   font-family: 'termina';
